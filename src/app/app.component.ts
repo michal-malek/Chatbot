@@ -27,30 +27,29 @@ export class AppComponent implements OnInit {
 
   initTiledesk() {
     console.log("initTiledesk");
-  
+
     // this.window.tiledeskSettings = 
-    //   {
-    //   projectid: "64799b3d52caaa00131358b5"
-    //   };
-    //   (function(d, s, id) {
-    //     var js, fjs = d.getElementsByTagName(s)[0];
-    //     if (d.getElementById(id)) return;
-    //     js = d.createElement(s); js.id = id;
-    //     js.src = "https://chatbot.pgg.pl/widget/launch.js";
-    //     fjs.parentNode.insertBefore(js, fjs);
-    //   }(document, 'script', 'tiledesk-jssdk'));
-
+    // {
+    // projectid: "5f7dcc8b9c9f020012441a19"
+    // };
+    // (function(d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) return;
+    //   js = d.createElement(s); js.id = id;
+    //   js.src = "https://widget.tiledesk.com/v4/launch.js";
+    //   fjs.parentNode.insertBefore(js, fjs);
+    // }(document, 'script', 'tiledesk-jssdk'));
+  
     this.window.tiledeskSettings = 
-    {
-    projectid: "5f7dcc8b9c9f020012441a19"
-    };
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "https://widget.tiledesk.com/v4/launch.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'tiledesk-jssdk'));
-
+      {
+      projectid: "64799b3d52caaa00131358b5"
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://chatbot.pgg.pl/widget/launch.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'tiledesk-jssdk'));
   }
 }
