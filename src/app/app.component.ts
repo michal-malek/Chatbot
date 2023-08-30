@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
 
     this.window.tiledeskSettings =
     {
-      projectid: "64ec6f0e5fe201001a936085"
+      projectid: "64ed96e81a15c60013b7ab2e"
     };
     (function (d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
